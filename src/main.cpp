@@ -3,8 +3,8 @@
 #include<Arduino.h>
 #include<ESPAsyncWebServer.h>
 // Replace with your network credentials
-const char* ssid = "ASUS_90";
-const char* password = "harbor_2342";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PASSWORD";
 const int ledPin =2;
 
 bool blinkActive = false;
